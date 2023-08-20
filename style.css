@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Oswald&display=swap');
+
+
+
+
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    ;
+}
+
+nav {
+    background-color: #fff;
+    max-width: 1440px;
+    max-height: 72px;
+    margin: auto;
+}
+
+.nav-item {
+    margin: 24px auto 24px auto;
+}
+
+.nav-link {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+}
+
+.fa-solid {
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.conatiner.active {
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.conatiner {
+    width: 20px;
+    transition: 0.5s;
+}
+
+.search {
+    display: none;
+    max-width: 75%;
+}
+
+.search.active {
+    display: inline;
+    outline: none;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin: 120px auto 30px;
+
+}
+
+@media (max-width: 392px) {
+    .text h1 {
+        font-size: 40px;
+    }
+}
+
+.btn-success {
+    background-color: #1B5B31;
+    border-radius: 50px;
+    width: 180px;
+    padding: 13px;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.btn-outline-success {
+    border-radius: 50px;
+    width: 230px;
+    padding: 13px;
+    font-size: 15px;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.col-md-6 img {
+    width: 900px;
+    height: 737px;
+}
+
+.hero {
+    background-color: #DCC1AB;
+}
+
+.oferta {
+    background-color: #F5F0EC;
+    height: 800px;
+
+}
+
+@media (max-width: 991px) {
+    .oferta {
+        height: 1400px;
+    }
+}
+
+@media (max-width: 458px) {
+    .oferta {
+        height: 1750px;
+    }
+}
+
+.rounded-5:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    color: #1B5B31;
+}
+
+.rounded-5 {
+    height: 400px;
+}
+
+.O-firmie {
+    background-color: #1B5B31;
+}
+
+.galeria {
+    background-color: #DCC1AB;
+    height: 900px;
+    overflow: hidden;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1B5B31;
+    border-radius: 10px;
+    width: 750px;
+    object-fit: cover;
+
+}
+
+.galery {
+    -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+.galery img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.galery img:hover {
+    padding: 10px;
+    border: 2px solid #1B5B31;
+    background-color: #1B5B31;
+    border-radius: 10px;
+}
+
+.insta {
+    height: 900px;
+    background-color: #F5F0EC;
+}
+
+.instagram {
+    background-color: #1B5B31;
+    max-width: 1300px;
+}
+
+@media (max-width:570px) {
+    .instagram {
+        max-width: 600px;
+    }
+}
+
+footer {
+    background-color: #111111;
+}
+
+
+hr {
+    width: 1200px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 1200px) {
+    hr {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    hr {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    hr {
+        width: 650px;
+    }
+}
+
+@media (max-width: 650px) {
+    hr {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    hr {
+        width: 200px;
+    }
+}
